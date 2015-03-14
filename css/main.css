@@ -14,6 +14,7 @@ html {
 body {
 	height: 100%;
 	margin: 0;
+	background-color: yellow;
 }
 
 ::selection {
@@ -51,17 +52,20 @@ div#saveNotify {
 	right: 0px;
 	background: white;
 	opacity: 0;
+	
 }
 
 div#content {
 	position: relative;
 	overflow: hidden;
 	height: 700px;
+	color:red;
 }
 
 div#header {
 	padding-bottom: 20px;
 	height: 20px;
+	color: green;
 }
 
 .menu {
